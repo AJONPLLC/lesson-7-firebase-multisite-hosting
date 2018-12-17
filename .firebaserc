@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "ajonp-ajonp-com"
+  },
+  "targets": {
+    "ajonp-ajonp-com": {
+      "hosting": {
+        "admin-ajonp-com": [
+          "admin-ajonp-com"
+        ],
+        "app-ajonp-com": [
+          "app-ajonp-com"
+        ]
+      }
+    }
+  }
+}
