@@ -16,6 +16,9 @@ steps:
 # Build ajonp-hugo-amp -> dist/ajonp-amp
 - name: 'gcr.io/$PROJECT_ID/hugo'
   args: [ 'hugo',"-d", "dist/ajonp-amp", "-v", "-t", "ajonp-hugo-amp", "--config", "config.toml,production-config.toml"]
+# Build the hugo image
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/ng:latest', './dockerfiles/ng' ]
 # Build ajonp-admin -> dist/ajonp-admin
 - name: 'gcr.io/$PROJECT_ID/ng:next'
   args: ['build', '--prod', '--project', 'ajonp-admin']
