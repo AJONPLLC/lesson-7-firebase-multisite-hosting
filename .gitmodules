@@ -1,0 +1,9 @@
+[submodule "content"]
+	path = content
+	url = https://github.com/AJONPLLC/ajonp-content.git
+[submodule "themes/ajonp-hugo-ionic"]
+	path = themes/ajonp-hugo-ionic
+	url = https://github.com/AJONPLLC/ajonp-hugo-ionic.git
+[submodule "themes/ajonp-hugo-amp"]
+	path = themes/ajonp-hugo-amp
+	url = https://github.com/AJONPLLC/ajonp-hugo-amp.git
