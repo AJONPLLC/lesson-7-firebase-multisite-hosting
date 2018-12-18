@@ -11,7 +11,29 @@
   },
   "hosting": [
     {
-      "target": "admin-ajonp-com",
+      "target": "ajonp-lesson-7",
+      "public": "dist/ajonp",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "ajonp-lesson-7-amp",
+      "public": "dist/ajonp-amp",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "ajonp-lesson-7-admin",
       "public": "dist/ajonp-admin",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
@@ -22,7 +44,7 @@
       ]
     },
     {
-      "target": "app-ajonp-com",
+      "target": "ajonp-lesson-7-app",
       "public": "dist/ajonp-app",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [

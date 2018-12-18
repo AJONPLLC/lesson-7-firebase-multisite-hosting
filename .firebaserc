@@ -1,15 +1,21 @@
 {
   "projects": {
-    "default": "ajonp-ajonp-com"
+    "default": "ajonp-hosting-lessons"
   },
   "targets": {
-    "ajonp-ajonp-com": {
+    "ajonp-hosting-lessons": {
       "hosting": {
-        "admin-ajonp-com": [
-          "admin-ajonp-com"
+        "ajonp-lesson-7-admin": [
+          "ajonp-lesson-7-admin"
         ],
-        "app-ajonp-com": [
-          "app-ajonp-com"
+        "ajonp-lesson-7-app": [
+          "ajonp-lesson-7-app"
+        ],
+        "ajonp-lesson-7-amp": [
+          "ajonp-lesson-7-amp"
+        ],
+        "ajonp-lesson-7": [
+          "ajonp-lesson-7"
         ]
       }
     }
